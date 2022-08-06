@@ -1,0 +1,90 @@
+img {
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+
+    // &:hover {
+    //     [alt="sec"] {
+    //         transform: translate(-50%, 0) rotate(360deg);
+    //     }
+    // }
+}
+
+[alt="sec"] {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: -10px;
+    width: 11px;
+    // height: 250px;
+    // transition: transform 60s linear;
+    transform-origin: 50% 50%;
+    animation: sec 60s linear infinite ;
+    z-index: 3;
+}
+
+@keyframes sec {
+    0% {
+        transform: translate(-50%, 0) rotate(0);
+    }
+
+    100% {
+        transform: translate(-50%, 0) rotate(360deg);
+        
+    }
+} 
+
+
+[alt="min"] {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform-origin: 50% 50%;
+    width: 10px;
+    animation: min 3600s linear infinite;
+    z-index: 2;
+}
+
+@keyframes min {
+    0% {
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, 0) rotate(360deg);
+    }
+}
+
+[alt="hour"] {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform-origin: 50% 50%;
+    width: 10px;
+    animation: hour 86400s linear infinite;
+    z-index: 1;
+}
+
+@keyframes hour {
+    0% {
+        transform: translate(-50%, 0) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, 0) rotate(360deg);
+    }
+}
+
+.message {
+    position: absolute;
+    top: 0;
+    left: 80%;
+    display: none;
+}
