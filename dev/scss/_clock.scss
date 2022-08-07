@@ -17,7 +17,7 @@ img {
     // }
 }
 
-[alt="sec"] {
+.sec {
     display: inline-block;
     position: absolute;
     left: 50%;
@@ -35,11 +35,47 @@ img {
         transform: translate(-50%, 0) rotate(0);
     }
 
+    // 50% {
+    //     transform: translate(-50%, 0) rotate(720deg);
+    //     display: block;
+    // }
+
     100% {
         transform: translate(-50%, 0) rotate(360deg);
-        
     }
-} 
+}
+
+span {
+    // content: 'Щось не виходить так зробити';
+    position: absolute;
+    top: 0;
+    left: 300px;
+    color: white;
+    width: 200px;
+    padding: 40px 0;
+    text-align: center;
+    background: #096279;
+    border-radius: 0% 100% 0% 100% / 60% 27% 73% 40%;
+    animation: mess 240s linear infinite;
+}
+@keyframes mess {
+    0% {
+        opacity: 0;
+    }
+
+    49% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 
 
 [alt="min"] {
@@ -54,11 +90,11 @@ img {
 
 @keyframes min {
     0% {
-        transform: translate(-50%, 0) rotate(0deg);
+        transform: translate(-50%, 0) rotate(90deg);
     }
 
     100% {
-        transform: translate(-50%, 0) rotate(360deg);
+        transform: translate(-50%, 0) rotate(450deg);
     }
 }
 
@@ -74,11 +110,11 @@ img {
 
 @keyframes hour {
     0% {
-        transform: translate(-50%, 0) rotate(0deg);
+        transform: translate(-50%, 0) rotate(217deg);
     }
 
     100% {
-        transform: translate(-50%, 0) rotate(360deg);
+        transform: translate(-50%, 0) rotate(577deg);
     }
 }
 
