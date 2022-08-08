@@ -18,7 +18,7 @@ img {
     top: -10px;
     width: 11px;
     transform-origin: 50% 50%;
-    animation: sec 60s linear infinite ;
+    animation: sec 60s linear infinite;
     z-index: 3;
 }
 
@@ -31,7 +31,6 @@ img {
         transform: translate(-50%, 0) rotate(360deg);
     }
 }
-
 
 [alt="min"] {
     position: absolute;
