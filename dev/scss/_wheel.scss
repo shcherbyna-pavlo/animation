@@ -1,0 +1,133 @@
+.wheel1 {
+    position: absolute;
+    left: 18px;
+    top: 92px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+
+    &_2 {
+        position: absolute;
+        left: 8px;
+        top: 11px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #b2b0b0;
+        border: 2px solid #ffffff;
+        box-shadow: 0 0 0 10px;
+        animation: wheelspeed 1s linear infinite;
+
+        &_3 {
+            position: absolute;
+            left: -3px;
+            top: 23px;
+            width: 51px;
+            height: 4px;
+            background: #663399;
+            transform: rotate(34deg);
+            transform-origin: 50% 50%;
+        }
+
+        &_4 {
+            position: absolute;
+            left: -3px;
+            top: 22px;
+            width: 51px;
+            height: 4px;
+            background: #663399;
+            transform: rotate(90deg);
+            transform-origin: 50% 50%;
+        }
+
+        &_5 {
+            position: absolute;
+            left: -2px;
+            top: 22px;
+            width: 51px;
+            height: 4px;
+            background: #663399;
+            transform: rotate(145deg);
+            transform-origin: 50% 50%;
+        }
+    }
+
+    .h {
+        position: absolute;
+        left: -5px;
+        top: 0px;
+        width: 76px;
+        height: 47px;
+        background: #ffffff;
+        border-radius: 50px 50px 0 0;
+    }
+}
+
+.wheel2 {
+    position: absolute;
+    left: 216px;
+    top: 92px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+
+    &_2 {
+        position: absolute;
+        left: 8px;
+        top: 11px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: #b2b0b0;
+        border: 2px solid #ffffff;
+        box-shadow: 0 0 0 10px;
+        animation: wheelspeed 1s linear infinite;
+
+        &_3 {
+            position: absolute;
+            left: -3px;
+            top: 23px;
+            width: 51px;
+            height: 4px;
+            background: #663399;
+            transform: rotate(34deg);
+            transform-origin: 50% 50%;
+        }
+
+        &_4 {
+            position: absolute;
+            left: -3px;
+            top: 22px;
+            width: 51px;
+            height: 4px;
+            background: #663399;
+            transform: rotate(90deg);
+            transform-origin: 50% 50%;
+        }
+
+        &_5 {
+            position: absolute;
+            left: -2px;
+            top: 22px;
+            width: 51px;
+            height: 4px;
+            background: #663399;
+            transform: rotate(145deg);
+            transform-origin: 50% 50%;
+        }
+
+        .h1 {
+            position: absolute;
+            left: -5px;
+            top: 0px;
+            width: 76px;
+            height: 47px;
+            background: #ffffff;
+            border-radius: 50px 50px 0 0;
+        }
+    }
+}

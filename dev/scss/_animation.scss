@@ -1,0 +1,35 @@
+@keyframes speed {
+    0% {
+        top: -235px;
+        left: -400px;
+        -webkit-transform: scaleX(1)
+    }
+
+    50% {
+        top: -235px;
+        left: 100%;
+        -webkit-transform: scaleX(1)
+    }
+
+    51% {
+        top: -495px;
+        left: 100%;
+        -webkit-transform: scaleX(-1);
+    }
+
+    100% {
+        -webkit-transform: scaleX(-1);
+        top: -495px;
+        left: -400px;
+    }
+}
+
+@keyframes wheelspeed {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

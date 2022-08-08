@@ -1,0 +1,71 @@
+.glass1 {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 220px;
+    width: 15px;
+    height: 55px;
+    background: #ccc;
+    border-radius: 5px 5px 0 0;
+    transform: skewX(44deg);
+}
+
+.glass2 {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 173px;
+    width: 34px;
+    height: 55px;
+    background: #dddcdc;
+    border-radius: 5px 5px 0 0;
+    transform: skewX(44deg);
+
+    &_2 {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: -25px;
+        width: 53px;
+        height: 55px;
+        background: #dddcdc;
+        transform: skewX(-44deg);
+        border-radius: 0 100% 0 0;
+    }
+}
+
+.glass3 {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 76px;
+    width: 34px;
+    height: 55px;
+    background: #dddcdc;
+    border-radius: 5px 5px 0 0;
+    transform: skewX(-44deg);
+
+    &_2 {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 6px;
+        width: 53px;
+        height: 55px;
+        background: #dddcdc;
+        transform: skewX(44deg);
+        border-radius: 100% 0 0 0;
+    }
+}
+
+.glass4 {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 47px;
+    width: 15px;
+    height: 55px;
+    background: #ccc;
+    border-radius: 5px 5px 0 0;
+    transform: skewX(-44deg);
+}

@@ -1,0 +1,38 @@
+.door1 {
+    position: absolute;
+    left: 49px;
+    top: 62px;
+    width: 87px;
+    height: 68px;
+    border: 2px solid #ccc;
+    border-top: none;
+    animation: doorspeed 5s ease-in-out infinite;
+}
+
+.handle1 {
+    position: absolute;
+    left: 11px;
+    top: 13px;
+    width: 10px;
+    height: 3px;
+    background: #555555;
+}
+
+.door2 {
+    position: absolute;
+    left: 148px;
+    top: 62px;
+    width: 87px;
+    height: 68px;
+    border: 2px solid #ccc;
+    border-top: none;
+}
+
+.handle2 {
+    position: absolute;
+    left: 11px;
+    top: 13px;
+    width: 10px;
+    height: 3px;
+    background: #555555;
+}
